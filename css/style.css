@@ -218,6 +218,9 @@ img{
     .hero .content h1{
         font-size: 38px;
     }
+    .hero .content p{
+        text-align: center;
+    }
     .flex-items{
         flex-direction: column;
         margin-top: 170px;
@@ -228,10 +231,12 @@ img{
     .flex-columns{
         margin-top: 350px;
     }
-    .flex-columns .column{
+    .flex-columns .column, .flex-grid .column{
        flex: 100%;
-       max-width: 100%;
-       
+       max-width: 100%; 
+    }
+    .flex-grid .column img{
+        margin-bottom: 10px;
     }
     #blog{
         margin-top: 100px;
